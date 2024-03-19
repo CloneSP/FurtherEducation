@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-
+using System.Threading;
 namespace NewApp
 {
     internal class Program
@@ -16,9 +16,12 @@ namespace NewApp
              using - метод, который закрывает коннект с БД после работы с ним, вызывая context.Dispose().
              
              */
-            try
+            Thread loading = new Thread(Loading);
+            loading.Start();
+
+            using (var context = new MyDbContext())
             {
-                using (var context = new MyDbContext())
+                try
                 {
                     var users = context.Users.ToList();
                     var curses = context.Curses.ToList();
@@ -27,20 +30,24 @@ namespace NewApp
                         Console.WriteLine(user.Name);
 
                     Console.WriteLine();
-
+                    
                     foreach (var curse in curses)
                         Console.WriteLine(curse.Name);
                 }
-            }
-            catch (Exception)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Произошла непредвиденная ошибка. ");
-                throw;
+                catch (Exception)
+                {
+                    loading.Abort();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Произошла непредвиденная ошибка. ");
+
+                    throw;
+                }
+
             }
 
+            loading.Abort();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Операция выполнена успешно. ");
+            Console.WriteLine("Операция выполнена успешно. Нажмите любую клавишу чтобы закрыть программу...");
 
             Console.ForegroundColor = defaultColor;
             Console.ReadKey();
@@ -59,6 +66,14 @@ namespace NewApp
             }
             context.Dispose();
             */
+        }
+        static void Loading()
+        {
+            while (true)
+            {
+                Console.WriteLine('.');
+                Thread.Sleep(1000);
+            }
         }
 
     }

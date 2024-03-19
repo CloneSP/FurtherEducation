@@ -159,7 +159,7 @@
   <ItemGroup>
     <None Include="Config.json" />
     <Compile Include="Entities\Curse.cs" />
-    <Compile Include="Entities\Department.cs" />
+    <Compile Include="Entities\Class.cs" />
     <Compile Include="MyDbContext.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Program.cs" />
