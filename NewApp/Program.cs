@@ -1,36 +1,50 @@
-﻿using NewApp;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NewApp
 {
     internal class Program
     {
 
+
         static void Main(string[] args)
         {
+            ConsoleColor defaultColor = Console.ForegroundColor;
+            Console.WriteLine("Подождите пожалуйста, операция выполняется...");
+
             /*
              using - метод, который закрывает коннект с БД после работы с ним, вызывая context.Dispose().
              
              */
-            using (var context = new MyDbContext())
+            try
             {
-                var users = context.Users.ToList();
-                var curses = context.Curses.ToList();
+                using (var context = new MyDbContext())
+                {
+                    var users = context.Users.ToList();
+                    var curses = context.Curses.ToList();
 
-                foreach (var user in users)
-                    Console.WriteLine(user.Name);
+                    foreach (var user in users)
+                        Console.WriteLine(user.Name);
 
-                Console.WriteLine();
+                    Console.WriteLine();
 
-                foreach (var curse in curses)
-                    Console.WriteLine(curse.Name);
-
-                Console.ReadKey();
+                    foreach (var curse in curses)
+                        Console.WriteLine(curse.Name);
+                }
             }
+            catch (Exception)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Произошла непредвиденная ошибка. ");
+                throw;
+            }
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Операция выполнена успешно. ");
+
+            Console.ForegroundColor = defaultColor;
+            Console.ReadKey();
+            //Console.ReadKey();
             //Можно так:
             // Но скорость очистки context будет медленнее чем с using
 
@@ -46,6 +60,7 @@ namespace NewApp
             context.Dispose();
             */
         }
+
     }
 }
 

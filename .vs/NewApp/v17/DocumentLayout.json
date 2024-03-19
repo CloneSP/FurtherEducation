@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|c:\\users\\clonesp\\source\\repos\\newapp\\newapp\\config.json||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\config.json||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|c:\\users\\clonesp\\source\\repos\\newapp\\newapp\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|C:\\Users\\CloneSP\\source\\repos\\NewApp\\newapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|C:\\Users\\CloneSP\\source\\repos\\NewApp\\newapp\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|c:\\users\\clonesp\\source\\repos\\newapp\\newapp\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|C:\\Users\\CloneSP\\source\\repos\\NewApp\\newapp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|C:\\Users\\CloneSP\\source\\repos\\NewApp\\newapp\\config.json||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\config.json||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|C:\\Users\\CloneSP\\source\\repos\\NewApp\\newapp\\entities\\curse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\entities\\curse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|C:\\Users\\CloneSP\\source\\repos\\NewApp\\newapp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB680A5-27E2-412E-A3D5-43436FB310F5}|NewApp\\NewApp.csproj|solutionrelative:newapp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,26 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "NewApp\\MyDbContext.cs",
-              "ToolTip": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\MyDbContext.cs",
-              "RelativeToolTip": "NewApp\\MyDbContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAqAAAA",
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "NewApp\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Entities\\Department.cs",
+              "RelativeToolTip": "NewApp\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T04:53:09.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Config.json",
-              "DocumentMoniker": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Config.json",
-              "RelativeDocumentMoniker": "NewApp\\Config.json",
-              "ToolTip": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Config.json",
-              "RelativeToolTip": "NewApp\\Config.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-18T06:18:45.557Z",
+              "WhenOpened": "2024-03-19T02:52:24.433Z",
               "EditorCaption": ""
             },
             {
@@ -69,9 +61,35 @@
               "RelativeDocumentMoniker": "NewApp\\Program.cs",
               "ToolTip": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Program.cs",
               "RelativeToolTip": "NewApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T12:52:00.871Z"
+              "WhenOpened": "2024-03-17T12:52:00.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "NewApp\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\MyDbContext.cs",
+              "RelativeToolTip": "NewApp\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T04:53:09.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Config.json",
+              "DocumentMoniker": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Config.json",
+              "RelativeDocumentMoniker": "NewApp\\Config.json",
+              "ToolTip": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Config.json",
+              "RelativeToolTip": "NewApp\\Config.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-18T06:18:45.557Z"
             },
             {
               "$type": "Document",
@@ -81,19 +99,19 @@
               "RelativeDocumentMoniker": "NewApp\\Entities\\Curse.cs",
               "ToolTip": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Entities\\Curse.cs",
               "RelativeToolTip": "NewApp\\Entities\\Curse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T05:05:03.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Entities\\User.cs",
               "RelativeDocumentMoniker": "NewApp\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\CloneSP\\source\\repos\\NewApp\\NewApp\\Entities\\User.cs",
               "RelativeToolTip": "NewApp\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T04:50:04.125Z"
             }

@@ -8,7 +8,7 @@ namespace NewApp.Entities
 {
     internal class Curse
     {
-        public int CurseId { get; set; }
+        public int Id { get; set; }
         public string Name {  get; set; }
         public int DaysDuration {  get; set; }
         public int Cost { get; set; }

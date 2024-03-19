@@ -16,19 +16,21 @@ namespace NewApp
         private dynamic dbConfig;
         public MyDbContext()
         {
-            dbConfig = JsonConvert.DeserializeObject<dynamic>(json);
 
+
+            dbConfig = JsonConvert.DeserializeObject<dynamic>(this.json);
+
+            //Database.EnsureDeleted();
+            //Database.EnsureCreated();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer($"Server={this.dbConfig.Server};Database={this.dbConfig.Database};Trusted_Connection={this.dbConfig.Trusted_Connection};");
 
-            }
+            optionsBuilder.UseSqlServer($"Server={this.dbConfig.Server};Database={this.dbConfig.Database};Trusted_Connection={this.dbConfig.Trusted_Connection};");
         }
-        public DbSet<User> Users{get; set;}
-        public DbSet<Curse> Curses { get; set;}
+        public DbSet<User> Users { get; set; }
+        public DbSet<Curse> Curses { get; set; }
+        public DbSet<Department> Departments { get; set; }
     }
 
 }

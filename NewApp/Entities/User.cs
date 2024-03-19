@@ -8,7 +8,7 @@ namespace NewApp.Entities
 {
     internal class User
     {
-        public int UserId { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Gender { get; set; }
